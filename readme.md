@@ -30,5 +30,5 @@ sudo docker run -d backup_mysql:py3.6
 
 直接运行脚本
 ```
-python db/back_up.py
+python db/back_db.py
 ```
