@@ -16,5 +16,15 @@
       "port": 3306,
       "charset": "utf8"
     }
+  ],
+  "restore_mysql_inf": [
+    {
+      "host": "localhost",
+      "user": "root1",
+      "password": "root",
+      "db": "db_1",
+      "port": 3306,
+      "charset": "utf8"
+    }
   ]
 }

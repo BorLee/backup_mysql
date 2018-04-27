@@ -15,6 +15,7 @@ time = now.strftime("%Y%m%d-%H%M%S")
 # 脚本执行路径/备份存放点
 # script_path = os.getcwd()
 script_path = Path(__file__).parent
+os.listdir(script_path.joinpath('restore'))
 f = open(script_path.joinpath('config.json'))
 Config = json.loads(f.read())
 f.close()

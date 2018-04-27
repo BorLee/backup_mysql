@@ -20,6 +20,10 @@ vi db/config.json
 ```
 > config.json 说明
 >
+> mysql_inf: 备份配置
+>
+> restore_mysql_inf: 恢复配置
+>
 > 多个数据库用 , 隔开，默认 config 是备份两个库的示例。
 
 docker 运行
@@ -31,4 +35,10 @@ sudo docker run -d backup_mysql:py3.6
 直接运行脚本
 ```
 python db/back_db.py
+```
+
+# 恢复数据库脚本使用
+把 zip 备份文件全部移动到 db/restore 目录下
+```
+python db/restore_mysql.py
 ```
