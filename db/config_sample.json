@@ -1,6 +1,7 @@
 {
   "mysql_inf": [
     {
+      "name": "conf1",
       "host": "localhost",
       "user": "root1",
       "password": "root",
@@ -9,20 +10,11 @@
       "charset": "utf8"
     },
     {
+      "name": "conf2",
       "host": "localhost",
       "user": "root",
       "password": "root",
       "db": "db_2",
-      "port": 3306,
-      "charset": "utf8"
-    }
-  ],
-  "restore_mysql_inf": [
-    {
-      "host": "localhost",
-      "user": "root1",
-      "password": "root",
-      "db": "db_1",
       "port": 3306,
       "charset": "utf8"
     }

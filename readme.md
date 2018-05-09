@@ -38,7 +38,7 @@ python db/back_db.py
 ```
 
 # 恢复数据库脚本使用
-把 zip 备份文件全部移动到 db/restore 目录下
+在 config.json 里指定每个配置的配置名，执行恢复脚本添加配置名和日期参数
 ```
-python db/restore_mysql.py
+python db/restore_mysql.py conf2 20180509
 ```
